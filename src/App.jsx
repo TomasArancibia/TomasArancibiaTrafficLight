@@ -5,7 +5,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Light from './components/light';
 
 function App() {
-  const [selectedColor, setSelectedColor] = useState("")
   return (
     <>
       <div className="container-fluid">
