@@ -22,3 +22,43 @@
   border-radius: 10px;
   margin: auto;
 }
+
+.light {
+  height: 100px;
+  width: 100px;
+  border: 5px solid white;
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 100%;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
+.green {
+  background: green;
+}
+
+.redGlow {
+  border-radius: 100%;
+  box-shadow: red 0px 0px 8cap;
+}
+
+.yellowGlow {
+  border-radius: 100%;
+  box-shadow: yellow 0px 0px 8cap;
+}
+
+.greenGlow {
+  border-radius: 100%;
+  box-shadow: green 0px 0px 8cap;
+}
+
+.opacity {
+  opacity: 0.5;
+}
